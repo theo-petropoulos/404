@@ -1,0 +1,55 @@
+
+p{
+	position:relative;
+	top:200px;
+	left:5%;
+}
+
+
+
+
+
+/*************
+**CSS button**
+*************/
+
+
+#lang_switchEN{
+	width:100px;
+	height:59px;
+	background:url("eng.png");
+}
+
+#lang_switchFR{
+	width:100px;
+	height:59px;
+	background:url("fr.png");
+}
+
+#h1EN{
+	position:absolute;
+	visibility:hidden;
+	top:10%;
+	left:30%;
+}
+
+#h2EN{
+	position:absolute;
+	visibility:hidden;
+	top:15%;
+	left:30%;
+}
+
+#h1FR{
+	position:absolute;
+	visibility:1;
+	top:10%;
+	left:30%;
+}
+
+#h2FR{
+	position:absolute;
+	visibility:1;
+	top:15%;
+	left:30%;
+}
