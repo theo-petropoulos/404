@@ -1,55 +1,70 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
 
 p{
-	position:relative;
-	top:200px;
-	left:5%;
-}
-
-
-
-
-
-/*************
-**CSS button**
-*************/
-
-
-#lang_switchEN{
-	width:100px;
-	height:59px;
-	background:url("eng.png");
-}
-
-#lang_switchFR{
-	width:100px;
-	height:59px;
-	background:url("fr.png");
-}
-
-#h1EN{
 	position:absolute;
-	visibility:hidden;
-	top:10%;
-	left:30%;
+	left:15%;
+	bottom:8%;
+	margin-left:2%;
+	font-family:'Berlin Sans FB';
+	font-size:1.2em;
+	text-align:center;
+	color:#FFDE00;
 }
 
-#h2EN{
-	position:absolute;
-	visibility:hidden;
-	top:15%;
-	left:30%;
+strong, em{
+	font-weight:600;
 }
 
-#h1FR{
-	position:absolute;
-	visibility:1;
-	top:10%;
-	left:30%;
+a{
+	color:#4DA3D4;
+}
+a:hover{
+	background-color:#4DA3D4;
+	color:white;
 }
 
-#h2FR{
+h1{
+	font-family:'Showcard gothic';
+	font-size:155px;
+	transform:scale(.7,1);
+	text-shadow:8px 0 black, 0 6px black, -3px 0 black, 0 -3px black;
+}
+
+h2{
+
+	font-family:'Harrington';
+	font-size:40px;
+	transform:scale(.7,1);
+	text-align:right;
+	text-shadow:1px 0 black, 0 1px black;
+
+}
+
+#titres{
 	position:absolute;
-	visibility:1;
-	top:15%;
-	left:30%;
+	top:20%;
+	color:#FFDE00;
+}
+
+#donut{
+	position:absolute;
+	margin:0;
+	width:28%;
+	left:55%;
+	top:-24%;
+}
+#logo{
+	position:absolute;
+	width:20%;
+	top:2%;
+	left:2%;
+}
+#homer{
+	position:absolute;
+	right:5%;
+	bottom:0px;
 }
